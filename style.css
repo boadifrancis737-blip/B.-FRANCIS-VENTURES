@@ -252,6 +252,10 @@ footer {
         padding: 30px 10px;
         border-radius: 16px;
     }
+    /* ...existing code... */
     footer {
         border-radius: 16px 16px 0 0;
-        font-size:
+        font-size: 0.9rem;
+    }
+}
+/* End of file */
