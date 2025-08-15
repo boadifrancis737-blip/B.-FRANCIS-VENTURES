@@ -1,2 +1,16 @@
-// No scripts added yet. Add JavaScript functionality here later, e.g., for image gallery interactions or form validation.
-// For example: document.addEventListener('DOMContentLoaded', () => { console.log('Website loaded'); });
+// Smooth scrolling for navigation links
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const sectionId = this.getAttribute('href');
+        document.querySelector(sectionId).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Basic form validation (if a form is added later)
+function validateContactForm() {
+    console.log('Form validation placeholder');
+    // Add form validation logic here if needed
+}
