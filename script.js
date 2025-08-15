@@ -1,0 +1,2 @@
+// No scripts added yet. Add JavaScript functionality here later, e.g., for image gallery interactions or form validation.
+// For example: document.addEventListener('DOMContentLoaded', () => { console.log('Website loaded'); });
